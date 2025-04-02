@@ -34,3 +34,8 @@ function sendMail(){
 
   emailjs.send("service_i9k2zh9","template_g25m30c",parms).then(alert("Email Sent!!"))  
 }
+
+
+const firebaseConfig = {
+  apikey: "YOUR_API_KEY",
+  auth
